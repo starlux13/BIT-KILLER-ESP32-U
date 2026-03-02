@@ -106,6 +106,15 @@ Para lograr la máxima capacidad del BIT-KILLER, se requiere la conexión de amb
 
 </div>
 
+## > 📦 Dependencias del Sistema
+
+Para compilar el código fuente en el **IDE 24 HP**, asegúrate de tener instaladas las siguientes librerías desde el Gestor de Librerías:
+
+* **RF24** (por TMRh20): Versión 1.4.7 o superior. Esencial para el control de los módulos nRF24L01+.
+* **SPI**: (Integrada en el core de ESP32). Se utiliza para la gestión del doble bus HSPI y VSPI.
+* **Ticker**: (Integrada en el core de ESP32). Utilizada para los patrones de parpadeo del LED de estado en el GPIO 27.
+
+
 ## > 🛠️ Lista de comprobación
 
 ESP32 Dev Module: (Recomendado: 38 pines para acceso total a GPIO).
