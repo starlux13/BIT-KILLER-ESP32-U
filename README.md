@@ -4,8 +4,8 @@
 
 <div align="center">
 
- <div align="center">
-  <img src="ESP.jpg" width="400">
+<div align="center">
+  <img src="Gallery/ESP.jpg" width="450">
   <p><i>Unidad Central BIT-KILLER: ESP32-U + Dual nRF24L01+PA+LNA</i></p>
 </div>
 
