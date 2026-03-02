@@ -1,6 +1,10 @@
-# ⚡ BIT-KILLER : SYSTEM OVERRIDE
+<h1 align="center"> ⚡ BIT-KILLER : SYSTEM OVERRIDE </h1>
+
 > **Developed by STARLUX**
 
+<div align="center">
+  <img src=" " alt="ESP32-U">
+ 
 ```text
  +-------------------------------------------------------+
  |  ____  ___ _____   _  _____ _     _     _____ ____    |
@@ -13,6 +17,8 @@
  +-------------------------------------------------------+
 ```
 
+ <div align="left">
+  
 ## > 📟 Descripción
 
 BIT-KILLER es un sistema de auditoría de radiofrecuencia para el espectro de 2.4GHz. Utiliza un ESP32 (NodeMCU-32S)
@@ -80,6 +86,16 @@ Para lograr la máxima capacidad del BIT-KILLER, se requiere la conexión de amb
 |                                                           |
 ------------------------------------------------------------
 ```
+
+## LED Indicador
+
+|  ESP32 |    4.7k Ohm       | 3mm ESTADO LED (blue)|
+|--------|-------------------|----------------------|
+|   GND  |                   |       (-) LED        |
+|        |    Resistencia    |       (+) LED        |
+| GPIO27 |    RESISTENCIA    |                      |
+
+
 ## > 🛠️ Lista de comprobación
 
 ESP32 Dev Module: (Recomendado: 38 pines para acceso total a GPIO).
