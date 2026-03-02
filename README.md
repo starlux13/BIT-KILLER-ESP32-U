@@ -4,10 +4,11 @@
 
 <div align="center">
 
-  <img src="esp.jpg" alt="hardware.jpg" width="400">
+ <div align="center">
+  <img src="ESP.jpg" width="400">
   <p><i>Unidad Central BIT-KILLER: ESP32-U + Dual nRF24L01+PA+LNA</i></p>
 </div>
- 
+
 ```text
  +-------------------------------------------------------+
  |  ____  ___ _____   _  _____ _     _     _____ ____    |
@@ -52,52 +53,46 @@ PANICO: Ejecución simultánea en ambos módulos para saturación total del espe
 Para lograr la máxima capacidad del BIT-KILLER, se requiere la conexión de ambos módulos nRF24L01 en buses independientes. A continuación, el esquema de cableado por líneas:
 
 ## NRF24 A: HSPI (Especial para WiFi)
-```text
-------------------------------------------------------------
-| VCC ----> 3.3V (Se recomienda añadir capacitor 10uF-100uF)|
-|                                                           |
-| GND ----> GND                                             |
-|                                                           |
-|  CE ----> GPIO 16                                         |
-|                                                           |
-| CSN ----> GPIO 15                                         | 
-|                                                           |
-| SCK ----> GPIO 14                                         |
-|                                                           |
-| MOSI ----> GPIO 13                                        |
-|                                                           |
-| MISO ----> GPIO 12                                        |
-|                                                           |
-------------------------------------------------------------
-```
+
+<div align="center">
+  
+| Componente | Pin nRF24 | Pin ESP32 (GPIO) | Función |
+| :--- | :--- | :--- | :--- |
+| **Radio A** | VCC | 3.3V | Alimentación |
+| **WiFi** | GND | GND | Tierra |
+| | CE | GPIO 16 | Chip Enable |
+| | CSN | GPIO 15 | Chip Select |
+| | SCK | GPIO 14 | Clock |
+| | MOSI | GPIO 13 | Master Out |
+
+</div>
+
 ## NRF24 B: VSPI (Especial para Bluetooth/BLE)
-```text
-------------------------------------------------------------
-| VCC ----> 3.3V (Se recomienda añadir capacitor 10uF-100uF)|
-|                                                           |
-| GND ----> GND                                             |
-|                                                           |
-| CE ----> GPIO 22                                          |
-|                                                           |
-| CSN ----> GPIO 21                                         |
-|                                                           |
-| SCK ----> GPIO 18                                         |
-|                                                           |
-| MOSI ----> GPIO 23                                        |
-|                                                           |
-| MISO ----> GPIO 19                                        |
-|                                                           |
-------------------------------------------------------------
-```
+
+<div align="center">
+
+| Componente | Pin nRF24 | Pin ESP32 (GPIO) | Función |
+| :--- | :--- | :--- | :--- |
+| **Radio B** | VCC | 3.3V | Alimentación |
+| **BLE/BT** | GND | GND | Tierra |
+| | CE | GPIO 22 | Chip Enable |
+| | CSN | GPIO 21 | Chip Select |
+| | SCK | GPIO 18 | Clock |
+| | MOSI | GPIO 23 | Master Out |
+
+</div>
 
 ## LED Indicador
 
+<div align="center">
+  
 |  ESP32 |    4.7k Ohm       | 3mm ESTADO LED (blue)|
 |--------|-------------------|----------------------|
 |   GND  |                   |       (-) LED        |
 |        |    Resistencia    |       (+) LED        |
 | GPIO27 |    RESISTENCIA    |                      |
 
+</div>
 
 ## > 🛠️ Lista de comprobación
 
