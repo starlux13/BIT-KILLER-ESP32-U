@@ -3,7 +3,10 @@
 > **Developed by STARLUX**
 
 <div align="center">
-  <img src=" " alt="ESP32-U">
+
+  <img src="esp.jpg" alt="hardware.jpg" width="400">
+  <p><i>Unidad Central BIT-KILLER: ESP32-U + Dual nRF24L01+PA+LNA</i></p>
+</div>
  
 ```text
  +-------------------------------------------------------+
