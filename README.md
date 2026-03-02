@@ -128,3 +128,16 @@ WiFi: 14 Canales (Saturación de banda ancha 2.4GHz).
 # ⚠️ Disclaimer: Este software es estrictamente para fines educativos y pruebas de penetración autorizadas.
 
 -----------------------------------------------------------------------------------------------------------------------------------
+
+# 🔒 ACCESO RESTRINGIDO | CONFIDENCIAL
+> **AVISO:** El contenido de este repositorio es propiedad privada de **STARLUX**. 
+> Este software y su documentación técnica están destinados exclusivamente a fines de auditoría de seguridad y educación. 
+
+---
+
+### ⚠️ Términos de Uso:
+1. **Privacidad:** Prohibida la redistribución de este link o del código fuente sin autorización expresa del autor.
+2. **Responsabilidad:** El uso de herramientas de interferencia de señal (Jamming) es ilegal en muchas jurisdicciones. El autor no se hace responsable del mal uso de este equipo.
+3. **Propiedad Intelectual:** El algoritmo **Power Sentinel** y el esquema de doble bus SPI son desarrollos originales.
+
+---
