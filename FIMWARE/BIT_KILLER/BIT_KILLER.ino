@@ -1,3 +1,13 @@
+/* * =========================================================================
+ * 🚀 PROYECTO: BIT-KILLER v1.0 
+ * DESARROLLADOR: Luisferpc13 (STARLUX)
+ * HARDWARE: NodeMCU-32S + Dual nRF24L01+PA+LNA
+ * REQUERIMIENTO: Librería RF24 (by TMRh20)
+ * =========================================================================
+ * Este firmware fue desarrollado íntegramente por Luisferpc13 en 2026.
+ * Optimiza el uso de buses duales (HSPI/VSPI) para auditoría de 2.4GHz.
+ */
+
 #include <RF24.h>
 #include <SPI.h>
 #include <nRF24L01.h>
