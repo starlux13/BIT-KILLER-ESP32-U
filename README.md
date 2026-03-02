@@ -9,6 +9,18 @@
   <p><i>Unidad Central BIT-KILLER: ESP32-U + Dual nRF24L01+PA+LNA</i></p>
 </div>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Security: Educational](https://img.shields.io/badge/Security-Educational_Only-red.svg)](#-aviso-de-responsabilidad)
+
+---
+
+### 📁 Navegación Rápida
+| [📜 Trayectoria](DOCUMENTACION/TRAYECTORIA.md) | [📖 Manual Técnico](DOCUMENTACION/MANUAL.md) | [⚖️ Licencia Completa](LICENSE) |
+| :--- | :--- | :--- |
+
+---
+
 ```text
  +-------------------------------------------------------+
  |  ____  ___ _____   _  _____ _     _     _____ ____    |
@@ -125,15 +137,22 @@ BLE: 40 canales (2,400 GHz - 2,4835 GHz).
 WiFi: 14 Canales (Saturación de banda ancha 2.4GHz).
 
 
-# ⚠️ Disclaimer: Este software es estrictamente para fines educativos y pruebas de penetración autorizadas.
-
------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # 🔒 ACCESO RESTRINGIDO | CONFIDENCIAL
 > **AVISO:** El contenido de este repositorio es propiedad privada de **STARLUX**. 
 > Este software y su documentación técnica están destinados exclusivamente a fines de auditoría de seguridad y educación. 
-
+´
+> 
+> **Nota del Desarrollador:** Este firmware fue escrito íntegramente por **Luisferpc13** para optimizar el uso de buses duales en el NodeMCU-32S.
+> 
 ---
+
+
+# ⚠️ Disclaimer: Este software es estrictamente para fines educativos y pruebas de penetración autorizadas.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
 
 ### ⚠️ Términos de Uso:
 1. **Privacidad:** Prohibida la redistribución de este link o del código fuente sin autorización expresa del autor.
