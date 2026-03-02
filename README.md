@@ -16,7 +16,7 @@
 ---
 
 ### 📁 Navegación Rápida
-| [📜 Trayectoria](DOCUMENTACION) | [📖 Fimware](FIMWARE/BIT_KILLER) | [⚖️ Licencia Completa](LICENSE) |
+| [📜 Trayectoria](Trayectoria) | [📖 Fimware](FIMWARE/BIT_KILLER) | [⚖️ Licencia Completa](LICENSE) |
 | :--- | :--- | :--- |
 
 ---
