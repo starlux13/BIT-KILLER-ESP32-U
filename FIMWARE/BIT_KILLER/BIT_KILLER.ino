@@ -1,5 +1,5 @@
 /* * =========================================================================
- * 🚀 PROYECTO: BIT-KILLER v1.0 
+ * 🚀 PROYECTO: BIT-KILLER v13.2 
  * DESARROLLADOR: Luisferpc13 (STARLUX)
  * HARDWARE: NodeMCU-32S + Dual nRF24L01+PA+LNA
  * REQUERIMIENTO: Librería RF24 (by TMRh20)
