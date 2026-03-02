@@ -1,1 +1,35 @@
+📜 Bitácora de Desarrollo: BIT-KILLER
+Autor: STARLUX
 
+Hardware: NodeMCU-32S + Dual nRF24L01+PA+LNA
+
+🏗️ 1. Selección de Hardware Crítico
+A diferencia de otros prototipos, el BIT-KILLER se consolidó sobre la plataforma NodeMCU-32S. Esta elección fue fundamental por:
+
+Gestión de Buses: Capacidad nativa para manejar los buses de alta velocidad  y  necesarios para el control dual de radio.HSPIVSPI
+
+Pines Dedicados: Uso del GPIO 27 para el LED de estado y el GPIO 0 (Boot Button) para el cambio dinámico de modos.
+
+🧪 2. Arquitectura del Sistema (Software)
+El corazón del proyecto reside en su lógica de control, desarrollada en el entorno Arduino IDE:
+
+Librerías: Integración de  para el manejo de los módulos y librerías nativas del ESP32 para el control de energía (, ).RF24.hesp_wifi.hesp_bt.h
+
+Modos de Operación: Se programó una máquina de estados que cicla entre , , ,  y .REPOSOMODO_BLEMODO_WIFISIGILOPANICO
+
+Sincronización: Configuración de los buses SPI con frecuencias de 20MHz para una saturación de canales optimizada ( en HSPI y  en VSPI).radioWIFIradioBLE
+
+🔌 3. Ingeniería de Conexiones (Pinout Final)
+Gracias a la flexibilidad del NodeMCU-32S, logramos este esquema de alta eficiencia que ya tienes documentado en tus tablas:
+
+Autobús HSPI (Radio A): Pines 14 (SCK), 12 (MISO), 13 (MOSI) y 15 (CSN).
+
+Bus VSPI (Radio B): Pines 18 (SCK), 19 (MISO), 23 (MOSI) y 21 (CSN).
+
+⚠️ 4. El Factor de Potencia (Power Sentinel)
+Durante el desarrollo en el IDE, se implementó la variable . Esta detecta cuando el NodeMCU-32S no puede suministrar suficiente corriente a ambos módulos nRF24L01, activando la advertencia de desconexión física para proteger la integridad de la placa.power_alert
+
+📂 Organización del Repositorio
+Gallery/: Contiene la evidencia física del montaje sobre el NodeMCU-32S con su antena triple.
+
+README.md: Presentación centrada con tablas tipo Excel y nota de confidencialidad.
