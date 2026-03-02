@@ -147,11 +147,12 @@ WiFi: 14 Canales (Saturación de banda ancha 2.4GHz).
 
 
 ---
-
+``
 # 🔒 ACCESO RESTRINGIDO | CONFIDENCIAL
 > **AVISO:** El contenido de este repositorio es propiedad privada de **STARLUX**. 
-> Este software y su documentación técnica están destinados exclusivamente a fines de auditoría de seguridad y educación. 
-´
+> Este software y su documentación técnica están destinados exclusivamente a fines de auditoría de seguridad y educación.
+``
+---
 > 
 > **Nota del Desarrollador:** Este firmware fue escrito íntegramente por **Luisferpc13** para optimizar el uso de buses duales en el NodeMCU-32S.
 > 
