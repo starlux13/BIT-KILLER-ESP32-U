@@ -1,9 +1,14 @@
 
 # Licencia del Proyecto BIT-KILLER
+---
+## ⚖️ Licencia
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Este proyecto es un trabajo derivado. Los componentes originales están bajo la Licencia Apache 2.0, y las modificaciones realizadas por Luisferpc13 están bajo la Licencia MIT.
+Este proyecto es un trabajo derivado. Las modificaciones de 2026 pertenecen a **Luisferpc13** (MIT), basadas en el núcleo original de **EmenstaNougat** (Apache 2.0). Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
+
 
 ## 1. Licencia de las Modificaciones (MIT)
 Copyright (c) 2026 Luisferpc13
