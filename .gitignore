@@ -1,14 +1,25 @@
-# Basura de compilación de Arduino
-applet/
-*.lst
-*.elf
+# --- Archivos Temporales de Arduino/IDE ---
+.build/
+.bin/
 *.hex
+*.elf
 *.o
 *.d
-*.eep
-*.map
-*.bin
+*.pyc
 
-# Archivos temporales del sistema
+# --- Carpetas de Configuración Local ---
+.vscode/
+.idea/
+.settings/
+node_modules/
+dist/
+
+# --- Archivos Sensibles (Seguridad) ---
+secrets.h
+config_personal.h
+*.env
+*.log
+
+# --- Archivos de Sistema ---
 .DS_Store
 Thumbs.db
