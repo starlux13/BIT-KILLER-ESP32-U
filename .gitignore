@@ -1,0 +1,14 @@
+# Basura de compilación de Arduino
+applet/
+*.lst
+*.elf
+*.hex
+*.o
+*.d
+*.eep
+*.map
+*.bin
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
